@@ -9,7 +9,7 @@ PicturesDriver = require('./picturesDriver').PicturesDriver;
 IpDriver = require('./ipDriver').IpDriver;
 
 var app = express();
-app.set('port', process.env.PORT || 3002);
+app.set('port', process.env.PORT || 3004);
 
 var url = 'mongodb://localhost:27017/pictures';
 var mongoHost = 'localhost';
